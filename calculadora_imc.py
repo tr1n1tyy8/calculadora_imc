@@ -2,7 +2,7 @@
 CALCULADORA DEL IMC
 """
 
-def imc():
+def calculadora_imc():
 
     print("\nCALCULADORA DEL IMC\n")
 
@@ -25,5 +25,5 @@ def imc():
     resultado = round(peso / (altura ** 2), 2)  # Implementamos la fórmula del IMC y la almacenamos en una variable que redondeamos en un máximo de 2 decimales
     return (f"Su IMC es de:  {resultado}")
     
-calculadora = imc()
-print(calculadora)
+imc = calculadora_imc()
+print(imc)
